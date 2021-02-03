@@ -63,3 +63,69 @@ console.log(subject)
 */
 
 
+
+/*
+//function hoisting
+
+sayMyName();
+
+function sayMyName() {
+    console.log('Mayk')
+}
+*/
+
+
+
+/*
+//arrow function
+
+const sayMyName = (name) => {
+    console.log(name)
+}
+
+sayMyName('Mayk')
+*/
+
+
+
+/*
+//callback function (função passada a outra função como argumento)
+
+function sayMyName(name) {
+    console.log('antes de executar a função callback')
+
+    name()
+
+    console.log('depois de executar a callback')
+}
+
+sayMyName(
+    () => {
+        console.log('estou em uma callback')
+    }
+)
+*/
+
+//*************************************************************
+
+/*
+Function() constructor
+*expressão new
+*criar um novo objeto
+*this keyword
+*/
+/*
+function Person(name) {
+    this.name = name
+    this.walk = function() {
+        return this.name + " está andando"
+    }
+}
+
+const mayk = new Person("Mayk")
+const joao = new Person("João")
+console.log(mayk.walk())
+console.log(joao.walk())
+*/
+
+
