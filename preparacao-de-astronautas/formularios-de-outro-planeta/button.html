@@ -1,0 +1,36 @@
+<!--
+    <button>
+
+    - Representa um botão
+    - Usado para enviar formulários (e para outras coisas também)
+    - É estilizado pelo user agent
+
+    Atributos comuns:
+    - type
+        - submit
+        - reset
+        - button
+    - autofocus
+    - disabled
+    - name
+    - value
+    - form
+-->
+
+<form action="">
+    <input type="text" value="Digite algo aqui">
+    <button type="reset">Limpar</button>
+</form>
+
+<!--Ao usar autofocus, o elemento recebe o foco. Ao teclar enter, por exemplo, o botão com autofocus será ativado-->
+<button autofocus>Enviar</button>
+<br>
+<button disabled>Enviar</button>
+<br>
+<!--Ao clicar no botão, o value será recebido por algo chamado 'button'-->
+<button type="submit" name="button" value="Valor qualquer">Enviar</button>
+<br>
+
+<!--Vai enviar o formulário indicado-->
+<form action="" id="meu-form"></form>
+<button type="submit" form="meu-form">Enviar</button>
