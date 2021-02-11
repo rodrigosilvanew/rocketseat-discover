@@ -1,0 +1,28 @@
+<!--
+    <input> Atributos comuns
+
+    - autocomplete
+    - autofocus (boolean), (1 por página)
+    - disabled (boolean) 
+    - value
+    - readonly (boolean) (quase todos)
+    - value
+    - form (quase todos)
+    - name
+    - required (quase todos), (obrigatório)
+    - placeholder(password, search, tel, text, url)
+-->
+
+
+Autocomplete <input type="text" autocomplete="email"><br>
+Autofocus <input type="text" autofocus><br>
+Disabled <input type="text" disabled><br>
+Readonly <input type="text" readonly><br>
+Value <input type="text" value="Escreva aqui">
+<form id="meu-form"></form>
+Form <input type="text" form="meu-form"><br>
+Required <input type="text" required><br>
+
+
+<label for="email">Email</label>
+<input id="email" type="email" placeholder="Digite seu email"><!--Funciona sem o label, mas sem ele, perdemos acessibilidade, já que a acessibilidade não consegue ler o placeholder-->
