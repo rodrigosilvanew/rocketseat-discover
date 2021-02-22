@@ -28,3 +28,51 @@ p {
 ---------------------------------------------------------------------------------
 
 ## Font Weight
+* Peso da fonte
+
+```css
+p {
+    font-weight: bold;
+}
+```
+
+---------------------------------------------------------------------------------
+
+## Font Style
+* O estilo da fonte
+
+```css
+span {
+    font-style: italic;
+}
+```
+
+---------------------------------------------------------------------------------
+
+## Font Size
+* O tamanho da fonte
+
+```css
+p {
+    font-size: 18px;
+}
+```
+
+----------------------------------------------------------------------------------
+
+## Web Fonts
+- fontes do sistema x fontes da web
+- como usar fontes para web?
+
+* @font-face
+* @import
+* link
+
+
+
+
+
+
+### Referências
+https://www.w3.org/TR/css-fonts-3/
+https://css-tricks.com/snippets/css/using-font-face/
